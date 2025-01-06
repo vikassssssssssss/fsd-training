@@ -1,0 +1,31 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+ans: A data type in programming refers to the kind of data that a variable can hold. It defines the type of data and the operations that can be performed on it. The main purpose of using data types is to ensure that a program operates on data in a manner that is compatible with its intended operations. Each data type specifies the values it can take and the operations that can be performed on those values.
+
+Types of Data Types :-
+1) Primitive Data Types.
+2) Non-Primitive Data Types.
+
+1. Primitive Data Types
+-Primitive data types are the most basic types of data. They are predefined by the programming language and represent simple values. They are not objects and usually store a single value.
+-they are built-in.
+-these are immutable.
+
+Primitive Data Types:
+1) String(JS)
+2) Number
+3) Boolean
+4) undefined
+5) null
+
+2. Non-Primitive Data Types
+-Non-primitive data types, also known as reference types, are more complex data types that are created by the programmer. They can store multiple values or objects and often contain collections of primitive data types.
+-they are user defined. 
+-these are mutable.
+
+Non-Primitive Data Types:
+1) Array
+2) Function
+3) Objects
+4) List
+5) Tuple
+
