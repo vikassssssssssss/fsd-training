@@ -21,11 +21,11 @@
 // }
 
 //! do while
-let n=5; 
-do{
-    i++
-    console.log("very good ")
-}while(i<=n)
+// let n=5; 
+// do{
+//     i++
+//     console.log("very good ")
+// }while(i<=n)
 
 // function add to cart(){
 //     alert("item added to cart");
