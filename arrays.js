@@ -71,15 +71,15 @@
 
 // console.log(userDetails[3].name);
 
-let userDetails ={
-    name: "vikas",
-    age : 20,
-    city :"hyderabad"
-};
-console.log(userDetails);
+// let userDetails ={
+//     name: "vikas",
+//     age : 20,
+//     city :"hyderabad"
+// };
+// console.log(userDetails);
 
-let x = JSON.stringify(userDetails);
-console.log("JSON object" +x);
+// let x = JSON.stringify(userDetails);
+// console.log("JSON object" +x);
 
-let y = JSON.parse(x);
-console.log(y);
+// let y = JSON.parse(x);
+// console.log(y);
