@@ -71,12 +71,59 @@
 //     divBlock.style.backgroundColor="aqua"
 // })
 
-let inp =document.getElementById("inp");
-inp.addEventListener("keydown",()=>{
-    console.log("keydown");
-})
+// let inp =document.getElementById("inp");
+// inp.addEventListener("keydown",()=>{
+//     console.log("keydown");
+// })
 
-inp.addEventListener("keyup",()=>{
-    console.log("keyup");
-})
+// inp.addEventListener("keyup",()=>{
+//     console.log("keyup");
+// })
 
+// let red = document.getElementById("red");
+// divBlock.addEventListener("mouseover",()=>{
+//     document.body.style.backgroundColor="red"
+//     divBlock.style.backgroundColor="blue"
+// })
+
+// let bgColor = document.querySelectorAll(".bgColor");
+// console.log(bgColor);
+// [...bgColor].map((element)=>{
+//     element.addEventListener("mouseover",()=>{
+//         element.style.backgroundColor="transparent";
+//     })
+// })
+
+// let ele = document.createElement("hi");
+// ele.innerText = "Dynamic creation of html element"
+// // ele.setAttribute("id","demo");
+// ele.id = "demo";
+
+// ele.removeAttribute("id");
+// console.log(ele);
+
+// let image = document.createElement("img");
+// image.src="https://t4.ftcdn.net/jpg/02/74/99/01/360_F_274990113_ffVRBygLkLCZAATF9lWymzE6bItMVuH1.jpg";
+// console.log(image);
+
+// document.body.appendChild(ele);
+// document.body.appendChild(image);
+
+let from = document.querySelector("form");
+let username = document.getElementById("uName");
+let email = document.getElementById("uEmail");
+let password = document.getElementById("uPass");
+
+from.addEventListener("submit",(Event)=>{
+    event.preventDefault();
+    // console.log(event);
+    // console.log("form submitted");
+    let uName = username.value;
+    let uEmail = email.value;
+    let uPass = password.value;
+    let userDetails={
+        uName,uEmail,uPass
+    }
+    console.log(userDetails);
+    localStorage.setItem("userData",JSON.stringify(userDetails))
+})
